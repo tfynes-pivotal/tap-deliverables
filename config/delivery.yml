@@ -24,6 +24,7 @@ spec:
         apps.tanzu.vmware.com/workload-type: web
         carto.run/workload-name: tdemotdt
         conventions.apps.tanzu.vmware.com/framework: spring-boot
+        foo: bar
     spec:
       containers:
       - env:
