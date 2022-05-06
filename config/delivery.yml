@@ -30,7 +30,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: index.docker.io/fynesy/tdemotdt-default@sha256:e87770178b0a5aee1792f49f5a94e6fd6c9c6b4849a7d478b6de1a677dafa896
+        image: index.docker.io/fynesy/tdemotdt-default@sha256:5adc23dfa926b021a73fdf86965ed9452ae78dc33d1a34f381672c61f015395a
         name: workload
         ports:
         - containerPort: 8080
